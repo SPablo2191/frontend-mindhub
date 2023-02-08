@@ -1,0 +1,9 @@
+figure > img {
+    width: 5rem;
+    height: 5rem;
+    
+}
+header > figure,h1{
+    display: inline-flex;
+}
+
