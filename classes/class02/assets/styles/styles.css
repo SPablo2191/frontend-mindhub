@@ -1,0 +1,18 @@
+*{
+    /* selector universal */
+    font-family:  Arial, Helvetica, sans-serif, monospace;
+    background-color: black;
+    color: white;
+}
+
+.knowledge_title{
+    text-decoration: underline;
+}
+
+section > p{
+    color: greenyellow;
+}
+section span{
+    color: white;
+    font-style: italic;
+}
