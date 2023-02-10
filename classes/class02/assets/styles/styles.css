@@ -1,18 +1,48 @@
-*{
-    /* selector universal */
-    font-family:  Arial, Helvetica, sans-serif, monospace;
-    background-color: black;
-    color: white;
+* {
+  /* selector universal */
+  font-family: Arial, Helvetica, sans-serif, monospace;
+  background-color: black;
+  color: white;
 }
 
-.knowledge_title{
-    text-decoration: underline;
+.knowledge_title {
+  text-decoration: underline;
 }
 
-section > p{
-    color: greenyellow;
+section > p {
+  color: greenyellow;
 }
-section span{
-    color: white;
-    font-style: italic;
+section span {
+  color: white;
+  font-style: italic;
+}
+.lilbox {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  display: inline-block;
+}
+.liltit{
+    display: inline-block;
+    margin-top: 0;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  border: 4px yellow;
+  margin-top: 32px;
+  display: inline-block;
+}
+.hol {
+  display: inline;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
 }
