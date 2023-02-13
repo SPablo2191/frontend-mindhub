@@ -42,6 +42,7 @@ section > article{
     height: 5rem;
     position: absolute;
     right: 150px;
+    bottom: 170px;
 }
 header > figure,h1{
     display: inline-flex;

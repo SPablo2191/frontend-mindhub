@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+  padding: 0;
+}
+.main_title {
+  margin-bottom: 14px;
+  font-style: italic;
+}
+.banner {
+  height: 450px;
+  width: 1365px;
+  margin: 0;
+}
+.events_title {
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header > h1 {
+  display: inline-flex;
+}
+.logo {
+  background-color: white;
+  border: 2px solid black;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  left: 40px;
+  bottom: 0;
+}
+.menu {
+  position: absolute;
+  top: 20px;
+  left: 490px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  background-color: #2980b9;
+  border: 1px solid  #283747;
+  padding: 4px;
+  box-shadow: 1px 5px 5px #283747;
+}
+.menu > li {
+  display: inline;
+  margin-top: 10px;
+}
+.menu a:focus{
+  background-color: #2ecc71;
+}
+section{
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+section > article{
+  margin-top: 20px;
+}
