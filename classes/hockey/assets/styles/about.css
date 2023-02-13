@@ -1,0 +1,9 @@
+main{
+    display: flex;
+}
+.nav{
+    margin-top: 40px;
+}
+.about_info{
+    margin-top: 0;
+}

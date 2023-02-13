@@ -11,9 +11,14 @@ section{
 section > article{
     margin-top: 20px;
 }
+
 .menu > li{
     list-style: none;
+    text-decoration: none;
     margin-bottom: 50px;
+}
+.menu > li :hover{
+    font-size: 20px;
 }
 .events_title{
     background-color: black;
