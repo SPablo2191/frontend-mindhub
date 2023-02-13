@@ -1,9 +1,55 @@
-figure > img {
+*{
+    margin: 0;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    padding: 0;
+}
+section{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+section > article{
+    margin-top: 20px;
+}
+.menu > li{
+    list-style: none;
+    margin-bottom: 50px;
+}
+.events_title{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner{
+    height: 350px;
+    width: 1365px;
+    margin: 0;
+}
+.logo {
+    background-color: white;
+    border: 2px solid black;
     width: 5rem;
     height: 5rem;
-    
+    position: absolute;
+    right: 150px;
 }
 header > figure,h1{
     display: inline-flex;
 }
 
+.main_title{
+    color: white;
+    font-family: sans;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 1px 1px 2px pink;
+    position: absolute;
+    margin-top: 150px;
+    font-size: 50px;
+    left: 200px;
+    /* right: 50px; */
+}
