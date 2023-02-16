@@ -84,6 +84,11 @@ header > h1 {
   display: flex;
   justify-content: center;
 }
+.schedule_title{
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
 .schedule_table {
   width: 50%;
   border-collapse: collapse;
@@ -106,4 +111,21 @@ header > h1 {
 .schedule_table tr:hover{
     font-size: 19px;
     box-shadow: 1px 2px 2px 2px #c5c5c5;
+}
+.schedule_contact{
+  margin: 28px;
+}
+.schedule_contact p{
+  margin-bottom: 20px;
+}
+.rules_title{
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+.rules_main{
+  font-size: 17px;
+}
+.regulations{
+  margin-left: 40px;
 }
