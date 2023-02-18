@@ -35,7 +35,7 @@ header{
   justify-content: start;
 }
 .menu li {
-  display: inline;
+  display: inline-block;
   margin-right: 1rem;
   list-style: none;
   text-decoration: none;
@@ -178,4 +178,12 @@ section h2,h3{
   .logo_title h1 {
     font-size: 30px;
   }
+  .menu {
+    justify-content: start;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  
 }
