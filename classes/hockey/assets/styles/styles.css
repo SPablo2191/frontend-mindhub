@@ -41,6 +41,7 @@ header{
   text-decoration: none;
 }
 .menu li :hover {
+  transition: 0.3s;
   font-size: 20px;
 }
 .menu a {
