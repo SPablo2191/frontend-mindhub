@@ -174,6 +174,7 @@ section h2,h3{
 .regulations{
   margin-left: 40px;
 }
+
 @media screen and (max-width: 480px) {
   .logo_title h1 {
     font-size: 30px;
