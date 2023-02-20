@@ -127,7 +127,7 @@ section h2,h3{
   margin-top: 14px;
 }
 .schedule_table {
-  width: 50%;
+  width: 55%;
   box-shadow: 1px 3px 3px #283747;
   border-collapse: collapse;
 }
@@ -174,7 +174,32 @@ section h2,h3{
 .regulations{
   margin-left: 40px;
 }
+.locations{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.maps{
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: 1px 3px 3px #283747;
+  padding: 2rem;
+}
+.map{
+  align-self: center;
+  margin-right: 1rem;
+}
+.map iframe{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
 @media screen and (max-width: 480px) {
   .logo_title h1 {
     font-size: 30px;
