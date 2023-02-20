@@ -48,35 +48,35 @@
       <h1 class="events_title">Register Now</h1>
     </header>
     <main>
-      <form class="container">
+      <form class="container" action="./show_data.html" method="get">
         <div class="mb-3">
           <label for="firstname" class="form-label">Player´s First Name</label>
-          <input type="text" class="form-control" id="firstname" />
+          <input type="text" class="form-control" id="firstname" name="firstName" />
         </div>
         <div class="mb-3">
           <label for="firstname" class="form-label">Last Name</label>
-          <input type="text" class="form-control" id="firstname" />
+          <input type="text" class="form-control" id="lastName"  name="lastName"/>
         </div>
         <div class="mb-3">
           <label for="firstname" class="form-label">City</label>
-          <input type="text" class="form-control" id="firstname" />
+          <input type="text" class="form-control" id="city" name="city" />
         </div>
         <div class="mb-3">
           <label for="firstname" class="form-label">Zip Code</label>
-          <input type="text" class="form-control" id="firstname" />
+          <input type="text" class="form-control" id="zipCode" name="zipCode" />
         </div>
         <div class="mb-3">
           <label for="firstname" class="form-label"
             >Birth Date (dd/mm/yyyy)</label
           >
-          <input type="date" class="form-control" id="firstname" />
+          <input type="date" class="form-control" id="birthDate" name="birthDate" />
         </div>
         <label class="form-check-label" for="exampleCheck1">Gender</label>
         <div class="mb-3 form-check">
           <input
             type="radio"
             class="form-check-input"
-            id="exampleCheck1"
+            id="gender"
             name="gender"
           />
           <label class="form-check-label" for="exampleCheck1">Female</label>
@@ -85,7 +85,7 @@
           <input
             type="radio"
             class="form-check-input"
-            id="exampleCheck1"
+            id="gender"
             name="gender"
           />
           <label class="form-check-label" for="exampleCheck1">Male</label>
@@ -96,7 +96,7 @@
             <input
               type="radio"
               class="form-check-input"
-              id="exampleCheck1"
+              id="grade"
               name="grade"
             />
             <label class="form-check-label" for="exampleCheck1"
@@ -107,7 +107,7 @@
             <input
               type="radio"
               class="form-check-input"
-              id="exampleCheck1"
+              id="grade"
               name="grade"
             />
             <label class="form-check-label" for="exampleCheck1">1st</label>
@@ -116,7 +116,7 @@
             <input
               type="radio"
               class="form-check-input"
-              id="exampleCheck1"
+              id="grade"
               name="grade"
             />
             <label class="form-check-label" for="exampleCheck1">2nd</label>
@@ -125,7 +125,7 @@
             <input
               type="radio"
               class="form-check-input"
-              id="exampleCheck1"
+              id="grade"
               name="grade"
             />
             <label class="form-check-label" for="exampleCheck1">3rd</label>
@@ -134,7 +134,7 @@
             <input
               type="radio"
               class="form-check-input"
-              id="exampleCheck1"
+              id="grade"
               name="grade"
             />
             <label class="form-check-label" for="exampleCheck1">4th</label>
@@ -143,14 +143,14 @@
             <input
               type="radio"
               class="form-check-input"
-              id="exampleCheck1"
+              id="grade"
               name="grade"
             />
-            <label class="form-check-label" for="exampleCheck1">5th</label>
+            <label class="form-check-label" >5th</label>
           </div>
         </div>
         <p>
-          <label class="form-check-label" for="exampleCheck1"
+          <label class="form-check-label" 
             >Which elementary school do you live near?</label
           >
         </p>
