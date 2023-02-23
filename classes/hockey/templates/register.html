@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../assets/imgs/logo.png">
+    <link rel="icon" href="../assets/imgs/logo.png" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
@@ -36,7 +36,7 @@
             <a href="./rules.html" rel="noopener noreferrer">Rules</a>
           </li>
           <li>
-            <a href="#" rel="noopener noreferrer">Register</a>
+            <a href="./register.html" rel="noopener noreferrer">Register</a>
           </li>
         </ul>
       </nav>
@@ -51,11 +51,22 @@
       <form class="container" action="./show_data.html" method="get">
         <div class="mb-3">
           <label for="firstname" class="form-label">Player´s First Name</label>
-          <input type="text" class="form-control" id="firstname" name="firstName" />
+          <input
+            type="text"
+            class="form-control"
+            id="firstname"
+            name="firstName"
+            value=""
+          />
         </div>
         <div class="mb-3">
           <label for="firstname" class="form-label">Last Name</label>
-          <input type="text" class="form-control" id="lastName"  name="lastName"/>
+          <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            name="lastName"
+          />
         </div>
         <div class="mb-3">
           <label for="firstname" class="form-label">City</label>
@@ -69,7 +80,12 @@
           <label for="firstname" class="form-label"
             >Birth Date (dd/mm/yyyy)</label
           >
-          <input type="date" class="form-control" id="birthDate" name="birthDate" />
+          <input
+            type="date"
+            class="form-control"
+            id="birthDate"
+            name="birthDate"
+          />
         </div>
         <label class="form-check-label" for="exampleCheck1">Gender</label>
         <div class="mb-3 form-check">
@@ -78,6 +94,7 @@
             class="form-check-input"
             id="gender"
             name="gender"
+            value="Female"
           />
           <label class="form-check-label" for="exampleCheck1">Female</label>
         </div>
@@ -87,6 +104,7 @@
             class="form-check-input"
             id="gender"
             name="gender"
+            value="Male"
           />
           <label class="form-check-label" for="exampleCheck1">Male</label>
         </div>
@@ -98,6 +116,7 @@
               class="form-check-input"
               id="grade"
               name="grade"
+              value="Pre-School"
             />
             <label class="form-check-label" for="exampleCheck1"
               >Pre-School</label
@@ -109,6 +128,7 @@
               class="form-check-input"
               id="grade"
               name="grade"
+              value="1st"
             />
             <label class="form-check-label" for="exampleCheck1">1st</label>
           </div>
@@ -118,6 +138,7 @@
               class="form-check-input"
               id="grade"
               name="grade"
+              value="2nd"
             />
             <label class="form-check-label" for="exampleCheck1">2nd</label>
           </div>
@@ -127,6 +148,7 @@
               class="form-check-input"
               id="grade"
               name="grade"
+              value="3rd"
             />
             <label class="form-check-label" for="exampleCheck1">3rd</label>
           </div>
@@ -136,6 +158,7 @@
               class="form-check-input"
               id="grade"
               name="grade"
+              value="4th"
             />
             <label class="form-check-label" for="exampleCheck1">4th</label>
           </div>
@@ -145,12 +168,13 @@
               class="form-check-input"
               id="grade"
               name="grade"
+              value="5th"
             />
-            <label class="form-check-label" >5th</label>
+            <label class="form-check-label">5th</label>
           </div>
         </div>
         <p>
-          <label class="form-check-label" 
+          <label class="form-check-label"
             >Which elementary school do you live near?</label
           >
         </p>
@@ -158,35 +182,71 @@
           >Closest School:</label
         >
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="school1"
+            value="AJ Katzenmaier"
+          />
           <label class="form-check-label" for="exampleCheck1"
             >AJ Katzenmaier</label
           >
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="school2"
+            value="GreenBay"
+          />
           <label class="form-check-label" for="exampleCheck1">GreenBay</label>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="school3"
+            value="Howard A Yeager"
+          />
           <label class="form-check-label" for="exampleCheck1"
             >Howard A Yeager</label
           >
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="school4"
+            value="Marjorie P Hart"
+          />
           <label class="form-check-label" for="exampleCheck1"
             >Marjorie P Hart</label
           >
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="school5"
+            value="North Elementary"
+          />
           <label class="form-check-label" for="exampleCheck1"
             >North Elementary</label
           >
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="school6"
+            value="South Elementary"
+          />
           <label class="form-check-label" for="exampleCheck1"
             >South Elementary</label
           >
@@ -195,73 +255,165 @@
           >What position(s) do you normally play? (check all the apply)</label
         >
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="position1"
+            value="Forward"
+          />
           <label class="form-check-label" for="exampleCheck1">Forward</label>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="position2"
+            value="Defense"
+          />
           <label class="form-check-label" for="exampleCheck1">Defense</label>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="position3"
+            value="Midfield"
+          />
           <label class="form-check-label" for="exampleCheck1">Midfield</label>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="position4"
+            value="Goalkeeper"
+          />
           <label class="form-check-label" for="exampleCheck1">Goalkeeper</label>
         </div>
         <label class="form-check-label" for="exampleCheck1"
           >Uniform Size:</label
         >
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            id="exampleCheck1"
+            name="size1"
+            value="Youth Small"
+          />
           <label class="form-check-label" for="exampleCheck1"
             >Youth Small</label
           >
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="size2"
+            value="Youth Medium"
+          />
           <label class="form-check-label" for="exampleCheck1"
             >Youth Medium</label
           >
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="size3"
+            value="Youth Large"
+          />
           <label class="form-check-label" for="exampleCheck1"
             >Youth Large</label
           >
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="size4"
+            value="Small"
+          />
           <label class="form-check-label" for="exampleCheck1">Small</label>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="size5"
+            value="Medium"
+          />
           <label class="form-check-label" for="exampleCheck1">Medium</label>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="size6"
+            value="Large"
+          />
           <label class="form-check-label" for="exampleCheck1">Large</label>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            name="size7"
+            value="Extra-Large"
+          />
           <label class="form-check-label" for="exampleCheck1"
             >Extra-Large</label
           >
         </div>
         <label class="form-check-label" for="exampleCheck1"
-        >Permission to Play</label
-      >
-      <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation
-        By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+          >Permission to Play</label
+        >
+        <p>
+          I, the parent or guardian of the minor registrant, agree that the
+          registrant and I will abide by all the rules of the Mighty Ducks
+          Hockey League (MDHL). In recognizing the possibility of physical
+          injury associated with hockey and in consideration for the "League"
+          accepting the registrant for its hockey programs and activities, I
+          hereby release, discharge, and/or otherwise indemnify MDHL, their
+          employees and associated personnel and volunteers, including the
+          facilities used for practices and games, against any claim by or on
+          behalf of the registrant as a result of the registrant's participation
+          in the programand/orbeing transported to or from MDHL sponsored
+          activities, which transportation By signing below, I herebyagree and
+          authorizethe above. In addition, by signing below, lalso acknowledge
+          that I have read the cancellation policy and agree to its terms.
+        </p>
         <div class="mb-3">
-            <label for="firstname" class="form-label">Parent/Guardian Signature</label>
-            <input type="text" class="form-control" id="firstname" />
-          </div>
-          <div class="mb-3">
-            <label for="firstname" class="form-label">Date</label>
-            <input type="date" class="form-control" id="firstname" />
-          </div>
+          <label for="firstname" class="form-label"
+            >Parent/Guardian Signature</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="firstname"
+            name="parentSignature"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="firstname" class="form-label">Date</label>
+          <input
+            type="date"
+            class="form-control"
+            id="firstname"
+            name="signatureDate"
+          />
+        </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </main>
