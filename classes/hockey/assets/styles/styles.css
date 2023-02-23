@@ -57,6 +57,20 @@ section {
   padding: 1rem;
   flex-flow: row wrap;
 }
+.events_section{
+  display: flex;
+  padding: 1rem;
+  flex-flow: row wrap;
+}
+.events_section article{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 3px 3px #283747;
+  padding: 2rem;
+  max-width: 500px;
+  margin-top: 2rem;
+  text-align: center;
+}
 section > article {
   background-color: white;
   border-radius: 10px;
